@@ -38,13 +38,12 @@
 					<p:dataGrid id="itens" var="item" value="#{mainController.itens}" columns="3">
 						<p:panel id="pnl" header="#{item.nome}" style="text-align:left">
 							<h:panelGrid columns="1" style="width:100%; text-align:center;">
-								<h:graphicImage library="img" name="#{item.nome}.png" />
+								<h:graphicImage library="img" name="#{item.nome}.png"/>
 							</h:panelGrid>
 						</p:panel>
 						<p:draggable for="pnl" revert="true" handle=".ui-panel-titlebar" stack=".ui-panel" />
 					</p:dataGrid>
 				</p:fieldset>
-
 				<br />
 				<p:fieldset legend="Selecione o Lanche e arraste até o Pedido." style="display: inline-block;">
 
