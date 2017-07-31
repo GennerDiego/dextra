@@ -11,7 +11,7 @@ public class Lanche implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	protected String nome;
-
+	
 	private List<Ingrediente> ingredientes;
 
 	public Lanche(String nome, List<Ingrediente> ingredientes) {
@@ -130,4 +130,5 @@ public class Lanche implements Serializable {
 	public void setIngredientes(List<Ingrediente> ingredientes) {
 		this.ingredientes = ingredientes;
 	}
+
 }
